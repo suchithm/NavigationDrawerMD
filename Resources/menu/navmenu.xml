@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_home"
+      android:icon="@drawable/ic_home_black_24dp"
+      android:title="Home" />
+    <item
+      android:id="@+id/nav_messages"
+      android:icon="@drawable/ic_question_answer_black_24dp"
+      android:title="Write Post" />
+    <item
+      android:id="@+id/nav_friends"
+      android:icon="@drawable/ic_supervisor_account_black_24dp"
+      android:title="Members" />
+    <item
+      android:id="@+id/nav_SearchApartment"
+      android:icon="@drawable/ic_devices_black_24dp"
+      android:title="Devices" />
+  </group> 
+  <item android:title="Review">
+    <menu>
+      <item
+        android:title="Post" />
+      <item
+        android:title="Ratings" />
+     </menu>
+  </item>
+</menu>

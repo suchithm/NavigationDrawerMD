@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+	<string name="app_name">Navigation Drawer</string>
+	<string name="strBottomLine">Bottomline goes here</string>
+	 <string name="open_drawer">Open drawer</string>
+	<string name="close_drawer">Close drawer</string>
+</resources>
