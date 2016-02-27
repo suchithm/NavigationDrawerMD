@@ -1,11 +1,11 @@
-﻿using Android.App;
-using Android.Widget;
+﻿using Android.Widget;
 using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V4.Widget;
 using Android.Support.V7.Widget; 
 using Android.Support.V7.App;
-using Android.Views; 
+using Android.Views;
+using Android.App; 
 
 namespace NavigationDrawer
 {
@@ -44,9 +44,9 @@ namespace NavigationDrawer
 			ft.Commit ();  
 		}
 		//define custom title text
-		public override void OnResume ()
+		protected override void OnResume ()
 		{ 
-			((AppCompatActivity)Activity).SupportActionBar.SetTitle (Resource.String.app_name);
+			SupportActionBar.SetTitle (Resource.String.app_name);
 			base.OnResume ();
 		}
 		//define action for navigation menu selection
